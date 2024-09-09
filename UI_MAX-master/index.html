@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UI MAX</title>
+    <meta name="description" content="Ui Max is a powerful yet simple to use Figma UI Kit">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <section class="head">
+        <header class="header">
+            <img src="images/logo.svg" alt="logo" class="logo">
+            <nav>
+                <ul class="navigation">
+                    <li>
+                        <a href="/">Home</a>
+                        <hr>
+                    </li>
+                    <li>
+                        <a href="/">Product</a>
+                        <hr>
+                    </li>
+                    <li>
+                        <a href="/">Pricing</a>
+                        <hr>
+                    </li>
+                    <li>
+                        <a href="/">Contact</a>
+                        <hr>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- visible only for mobile -->
+            <div class="head-mobile">
+                <button class="button button-blue">Login</button>
+                <button class="burger">
+                    <img src="images/burger.svg" alt="menu">
+                </button>
+
+                <nav>
+                    <img src="images/logo-mobile.svg" class="logo-mobile" alt="logo">
+
+                    <ul class="navigation-mobile">
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        <li>
+                            <a href="/">Product</a>
+                        </li>
+                        <li>
+                            <a href="/">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="/">Contact</a>
+                        </li>
+                    </ul>
+
+
+                    <search class="search search-mobile">
+                        <input type="email" placeholder="Your Email" required>
+                        <button class="button button-blue">Subscribe</button>
+                    </search>
+                </nav>
+            </div>
+
+            <search class="search">
+                <input type="email" placeholder="Your Email" required>
+                <button class="button button-blue">Subscribe</button>
+            </search>
+        </header>
+
+        <section class="hero">
+            <h1 class="hero-title">Lightning fast prototyping</h1>
+            <p class="block-description">Most calendars are designed for teams. Slate is designed
+                for freelancers</p>
+
+
+            <button class="button button-blue">Try For Free</button>
+
+            <div class="laptop">
+                <div class="laptop-frame" data-aos="flip-up" data-aos-duration="3000" data-aos-delay="1000">
+                    <img src="images/laptop-hero-screen.svg" alt="laptop-hero-screen">
+                </div>
+
+                <div class="laptop-base">
+                    <div class="laptop-grip"></div>
+                </div>
+                <div class="laptop-bottom"></div>
+            </div>
+        </section>
+    </section>
+
+    <section class="amazing-features">
+        <hr>
+        <div class="title">
+            <h1>amazing features</h1>
+            <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
+        </div>
+
+        <div class="content">
+
+            <div class="card">
+                <img src="icons/knife&spoon.svg" alt="knife&spoon">
+                <h3>Gorgeous design</h3>
+                <p>Slate helps you see how
+                    many more days you need
+                    to work to reach your
+                    financial goal </p>
+                <button>Learn more</button>
+            </div>
+
+            <div class="card">
+                <img src="icons/puzzle.svg" alt="knife&spoon">
+                <h3>Performance</h3>
+                <p>Slate helps you see how
+                    many more days you need
+                    to work to reach your
+                    financial goal  </p>
+                <button>Learn more</button>
+            </div>
+
+            <div class="card">
+                <img src="icons/message.svg" alt="puzzle">
+                <h3>Gorgeous design</h3>
+                <p>Slate helps you see how
+                    many more days you need
+                    to work to reach your
+                    financial goal </p>
+                <button>Learn more</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <div class="feature-content" data-aos="fade-up-right" data-aos-duration="3000">
+                <h3 class="feature-title">UI KIT</h3>
+                <p class="feature-subtitle">Headings, body and other
+                    common text elements</p>
+                <p class="block-description">Most calendars are designed for teams. Slate is designed for freelancers</p>
+            </div>
+
+            <div class="laptop" data-aos="fade-up-left" data-aos-duration="3000">
+                <div class="laptop-frame">
+                    <img src="images/laptop-hero-screen.svg" alt="laptop-hero-screen">
+                </div>
+
+                <div class="laptop-base">
+                    <div class="laptop-grip"></div>
+                </div>
+                <div class="laptop-bottom"></div>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="feature-content" data-aos="fade-up-right" data-aos-duration="3000">
+                <h3 class="feature-title">COMPONENTS</h3>
+                <p class="feature-subtitle">Toggle element based on
+                    the Card</p>
+                <p class="block-description">Most calendars are designed for teams.
+                    Slate is designed for freelancers</p>
+            </div>
+
+            <div class="laptop" data-aos="fade-up-left" data-aos-duration="3000">
+                <div class="laptop-frame">
+                    <img src="images/laptop-hero-screen.svg" alt="laptop-hero-screen">
+                </div>
+
+                <div class="laptop-base">
+                    <div class="laptop-grip"></div>
+                </div>
+                <div class="laptop-bottom"></div>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="feature-content" data-aos="fade-up-right" data-aos-duration="3000">
+                <h3 class="feature-title">CODE</h3>
+                <p class="feature-subtitle">Used for adding notices</p>
+                <p class="block-description">Most calendars are designed for teams. Slate is designed for freelancers</p>
+            </div>
+
+            <div class="laptop" data-aos="fade-up-left" data-aos-duration="3000">
+                <div class="laptop-frame">
+                    <img src="images/laptop-hero-screen.svg" alt="laptop-hero-screen">
+                </div>
+
+                <div class="laptop-base">
+                    <div class="laptop-grip"></div>
+                </div>
+                <div class="laptop-bottom"></div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="newsletter">
+
+        <h3>At your fingertips</h3>
+        <h2>Newsletter</h2>
+
+        <h4>Subscribe to our Newsletter</h4>
+        <p>Available exclusivery on Figmaland</p>
+        
+        <input type="email" placeholder="Your email">
+        <br>
+        <button>Subscribe</button>
+
+    </section>
+
+    <section class="pricing">
+
+        <h3>A modular UI Kit</h3>
+        <p>Most calendars are designed for teams. 
+            Slate is designed for freelancers</p>
+
+        <button>Buy now</button>
+        <button data-secondBtnPricing="secondory"> Try for free </button>
+
+    </section>
+
+    <section class="footer">
+        <img src="images/logo-footer.svg" alt="footer-logo">
+
+        <div class="icons">
+            <img src="icons/twitter.svg" alt="twitter">
+            <img src="icons/facebook.svg" alt="facebook">
+            <img src="icons/linkedin.svg" alt="linkedin">
+        </div>
+
+        <p>Just type what's on your mind and we'll </p>
+    </section>
+
+</body>
+</html>
